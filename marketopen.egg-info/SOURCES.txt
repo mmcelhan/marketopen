@@ -1,0 +1,8 @@
+setup.py
+marketopen/__init__.py
+marketopen/marketopen.py
+marketopen.egg-info/PKG-INFO
+marketopen.egg-info/SOURCES.txt
+marketopen.egg-info/dependency_links.txt
+marketopen.egg-info/not-zip-safe
+marketopen.egg-info/top_level.txt
