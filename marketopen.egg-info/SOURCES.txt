@@ -1,3 +1,5 @@
+LICENSE
+README.md
 setup.py
 marketopen/__init__.py
 marketopen/marketopen.py
