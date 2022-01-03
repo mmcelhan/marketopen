@@ -19,7 +19,10 @@ def next_market_open_date(date):
 
 
 def strip_date(dt):
-    # takes a datetime and only keeps the date
+    """
+    param dt:  datetime
+    return: takes a datetime and only keeps the date
+    """
     if isinstance(dt, datetime.datetime):
         dt = datetime.datetime(dt.year, dt.month, dt.day).date()
 
@@ -56,7 +59,7 @@ class MarketOpen:
 
     def is_not_christmas(self):
         if self.month_day == '12-25':
-            self.market_open = False  # christmas day get some presents
+            self.market_open = False  # Christmas day get some presents
         elif (self.weekday == 0) & (self.month_day == '12-26'):  # Monday the 26th of January
             self.market_open = False
         elif (self.weekday == 4) & (self.month_day == '12-24'):  # Friday the 24th of December

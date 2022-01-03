@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='marketopen',
-      version='0.1',
+      version='1.0',
       description='returns if the stock market is open given a day',
       url='https://lamplightlab.com',
       author='Matthew McElhaney',
