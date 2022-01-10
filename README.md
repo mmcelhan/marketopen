@@ -13,10 +13,10 @@ Returns False
 marketopen.market_open('2021-11-29)
 Returns True
 
+## Installation Information
 Install from github with the following command (Windows):
 
 pip install git+https://github.com/mmcelhan/marketopen.git#egg=marketopen
 
-
-More information here:
+## More information here:
 https://lamplightlab.com/2021/11/28/stock-market-open-python-package/
